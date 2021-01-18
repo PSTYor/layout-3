@@ -1,0 +1,8 @@
+.header {
+  &__wrap {
+    height: 600px;
+    background-image: url("../img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

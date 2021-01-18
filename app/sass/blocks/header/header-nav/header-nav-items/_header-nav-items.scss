@@ -1,0 +1,22 @@
+.header-nav-items {
+  font-family: $font-montserrat;
+  font-size: 14px;
+
+  &__wrap {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 10px 15px;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      color: red;
+    }
+  }
+}

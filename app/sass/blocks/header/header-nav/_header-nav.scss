@@ -1,0 +1,7 @@
+.header-nav {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    min-height: 108px;
+  }
+}

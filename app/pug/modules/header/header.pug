@@ -1,0 +1,17 @@
+include ../../commons/mixins
+include ../../commons/variables
+
+header.header
+    .container-header
+        .header__wrap
+            nav.header-nav.container
+                .header-nav__wrap
+                    .header-nav-logo
+                        .header-nav-logo__wrap
+                            a(href="#").header-nav-logo__link крио
+                                span.header-nav-logo__link-add газ
+                    +header-nav-items(item_nav)
+                    .header-nav-contact
+                        .header-nav-contact__wrap
+                            a(href="#").header-nav-contact__phone +7 (812) 383-70-70
+                            a(href="#").header-nav-contact__email cryogas@cryogas.ru

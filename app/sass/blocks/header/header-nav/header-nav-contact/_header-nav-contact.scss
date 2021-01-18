@@ -1,0 +1,26 @@
+.header-nav-contact {
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 13px
+  }
+
+  &__phone {
+    padding: 5px 0;
+    text-align: right;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  &__email {
+    padding: 5px 0;
+
+    &:hover {
+      color: red;
+    }
+  }
+}

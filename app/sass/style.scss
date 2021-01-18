@@ -7,3 +7,18 @@
 @import "commons/variables";
 @import "commons/mixins";
 @import "commons/container";
+
+
+
+/* Стили для блоков */
+/* Шапка */
+@import "blocks/header/header";
+@import "blocks/header/header-nav/header-nav";
+@import "blocks/header/header-nav/header-nav-logo/header-nav-logo";
+@import "blocks/header/header-nav/header-nav-items/header-nav-items";
+@import "blocks/header/header-nav/header-nav-contact/header-nav-contact";
+
+
+
+/* Глобальные стили */
+@import "blocks/different/different";
